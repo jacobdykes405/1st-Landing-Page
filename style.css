@@ -56,16 +56,24 @@ body {
   width: 450px;
   background-color: #1f2937;
   margin-bottom: 100px;
+  display:flex ;
+  flex-direction: column;
+  border-radius: 17px;
+  border: 3px solid #1f2937;
+  
+  
  
 }
 
 .two {
-  background-color: rgb(160, 160, 160);
+  background-color: rgb(179, 179, 179);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 200px;
   width: 450px;
+  border-radius: 17px;
+  border: 3px solid #1f2937;
 }
 .one > h1 {
   display: flex;
@@ -80,6 +88,16 @@ body {
   margin-top: -20px;
 }
 
+.section1border {
+  border: 20px solid #1f2937;
+  height: 250px;
+  width: auto;
+  display: flex;
+  mar
+}
+  
+
+
 div > button {
   font-size: 12px;
   background-color: #3882f6;
@@ -88,28 +106,64 @@ div > button {
   padding: 5px 50px;
   display: flex;
   margin-right: 90px;
+  font-weight: 600;
 }
 
 .section2 {
   height: 300px;
   width: 100%;
   background-color:aliceblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pictures-main {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  
+  
+}
+.pictures {
+  height: 160px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pictures > img {
+  border: 3px solid #3179df;
+  border-radius: 17px;
+}
+
+.pictures > p {
+  text-align: center;
+}
+.Random-text {
+  font-size: 25px;
 }
 
 .section3 {
   height: 300px;
   width: 100%;
-  background-color: rgb(189, 189, 189);
+  background-color: rgb(216, 216, 216);
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  align-items: ;
+  justify-content: space-evenly;
+  min-width: 0;
 }
 
 .section3 > p {
   font-size: 25px;
-  margin-left: 200px;
-  margin-right: 200px ;
+  overflow: hidden;
+  text-align: center;
+  
+  width: 75%;
+  height: 100%;
 
 }
 
